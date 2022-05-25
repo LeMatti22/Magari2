@@ -103,3 +103,53 @@
         color: white;
         font-size: 2vw;
     }
+
+    .nyhetsartikel{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+
+    }
+
+    .nyhetsartikel2{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+
+    }
+
+    .nyhetsbild{
+        width: 40%;
+    }
+
+    .nyhetstexter{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2vw;
+    }
+
+    .nyhetsrubrik{
+        font-size: 3em;
+        margin: 0;
+       
+    }
+
+    .nyhetstext{
+        font-size: 2em;
+
+    }
+
+    .information{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 33% 33% 33%;
+        grid-column-start: 1;
+    }
+
+    .infoitem{
+
+    }
