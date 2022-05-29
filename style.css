@@ -156,3 +156,25 @@
         height: auto;
         margin: 1%;
     }
+
+    .klädartiklar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .klädartikel{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        padding: 1vw;
+        border: black;
+        border-bottom: solid;
+    }
+
+    .klädtext{
+        font-size: 2vw;
+    }
